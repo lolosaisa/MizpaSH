@@ -9,7 +9,7 @@ import user1 from "../assets/profile-pictures/user1.jpeg";
 //import user2 from "../assets/profile-pictures/user2.jpg";
 //import user3 from "../assets/profile-pictures/user3.jpg";
 //import user4 from "../assets/profile-pictures/user4.jpg";
-import clinton from "../assets/profile-pictures/clinton.jpeg";
+//import clinton from "../assets/profile-pictures/clinton.jpeg";
 import susan from "../assets/profile-pictures/susan.jpeg";
 
 //import { Shelter, Counseling, Legal, Medical, Crisis, Empowerment, Childcare, Education, SupportGroup, Rehab, Advocacy, JobPlacement, Nutrition, Transport } from "your-icon-library";
@@ -255,7 +255,7 @@ export const people = [
   {
     name: "Santori kims",
     title: "-Head of mission& fundraising - Canada",
-    image: clinton,
+    image: "path/to/user1.jpg",
   },
   {
     name: "Elizabeth Koech",
