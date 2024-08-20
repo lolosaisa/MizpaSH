@@ -17,9 +17,9 @@ build
 dist
 dist-ssr
 
-# Tailwind CSS
-*.css
-*.css.map
+# Tailwind CSS (remove specific ignore for .css files if necessary)
+# *.css
+# *.css.map
 
 # Static assets
 *.local
@@ -61,3 +61,4 @@ Thumbs.db
 ehthumbs.db
 
 .vercel
+

@@ -5,14 +5,19 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: './src/main.jsx',
-      },
-    },
-    sourcemap: true, 
   },
 });
 
-
+//export default defineConfig({
+ // plugins: [react()],
+  //build: {
+   // outDir: 'dist',
+   // rollupOptions: {
+     // input: {
+     //   main: './src/main.jsx',
+     // },
+   // },
+   //sourcemap: true, 
+   // },
+  //});
 
