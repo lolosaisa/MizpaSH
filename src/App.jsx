@@ -13,6 +13,7 @@ import TeamSection from "./components/TeamSection";
 import AddresingGBV from "./components/AddressingGBV.jsx";
 import TrainingSection from "./components/TrainingSection";
 import UnderConstruction from "./components/UnderConstruction";
+import './index.css'
 
 const App = () => {
   return (
