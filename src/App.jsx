@@ -27,7 +27,7 @@ const App = () => {
         <GBVSection />
         <ServicesSection />
         <TrainingSection />
-        <mazpaSection/>
+        
         <Workflow />
         <ResourcesSection />
         <Testimonials />

@@ -30,13 +30,12 @@ const AddresingGBV = () => {
         Our primary goal is to protect the rights and well-being of women and young girls and others affected by GBV.
         It is our duty to protect individuals from GBV.
         In all our operations, we focus on two key objectives to tackle GBV:
-        <ul>
-        - Reducing the risk of GBV for all individuals of concern.
-        </ul>
-        <ul>
-        - Ensuring that all GBV survivors have timely and adequate access to quality services that meet their needs.
-        </ul>
         </p>
+        <ul>
+          <li>- Reducing the risk of GBV for all individuals of concern.</li>
+          <li>- Ensuring that all GBV survivors have timely and adequate access to quality services that meet their needs.</li>
+        </ul>
+        
         
       </div>
       
