@@ -6,8 +6,8 @@
 //import { GlobeLock } from "lucide-react";
 //import React from 'react'
 import user1 from "../assets/profile-pictures/user1.jpeg";
-//import user2 from "../assets/profile-pictures/user2.jpg";
-//import user3 from "../assets/profile-pictures/user3.jpg";
+import antonym from "../assets/profile-pictures/antonym.jpeg";
+import wm from "../assets/profile-pictures/wm.jpeg";
 //import user4 from "../assets/profile-pictures/user4.jpg";
 //import clinton from "../assets/profile-pictures/clinton.jpeg";
 import susan from "../assets/profile-pictures/susan.jpeg";
@@ -228,12 +228,12 @@ export const people = [
   {
     name: "Anthony Mburu",
     title: "Chairman",
-    image: "path/to/anthony-mburu.jpg",
+    image: antonym,
   },
   {
     name: "Wilson Wamwea",
     title: "CEO",
-    image: "path/to/user1.jpg",
+    image: wm,
   },
   {
     name: "Susan Muturi",

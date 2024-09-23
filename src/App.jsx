@@ -12,7 +12,7 @@ import GBVSection  from "./components/GBVSection";
 import TeamSection from "./components/TeamSection";
 import AddresingGBV from "./components/AddressingGBV.jsx";
 import TrainingSection from "./components/TrainingSection";
-import UnderConstruction from "./components/UnderConstruction";
+//import UnderConstruction from "./components/UnderConstruction";
 import './index.css'
 
 const App = () => {
@@ -33,7 +33,7 @@ const App = () => {
         <ResourcesSection />
         <Testimonials />
         <TeamSection />
-        <UnderConstruction />
+        
         <Footer />
       </div>
     </>
