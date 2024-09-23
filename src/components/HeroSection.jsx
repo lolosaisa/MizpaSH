@@ -19,7 +19,7 @@ const HeroSection = () => {
       <p className="mt-10 text-lg text-center text-white max-w-4xl">
       Mizpa-Safety House operates as an affiliate of Graywall Africa Project, 
       a registered non-profit organization that has been running since march 2014.
-      At Mizpa House, we are dedicated to rescuing young women from the
+      At Mizpa House, we are dedicated to rescuing women and girls from the
         devastating grip of gender-based violence (GBV). In Kenya, more than
         half of all women have faced some form of GBV, with hundreds tragically
         losing their lives to femicide each year. Our mission is to provide a
