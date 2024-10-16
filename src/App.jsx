@@ -14,6 +14,7 @@ import AddresingGBV from "./components/AddressingGBV.jsx";
 import TrainingSection from "./components/TrainingSection";
 //import UnderConstruction from "./components/UnderConstruction";
 import './index.css'
+import OurApproach from "./components/OurApproach.jsx";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <AddresingGBV />
         <GBVSection />
         <ServicesSection />
+        <OurApproach />
         <TrainingSection />
         
         <Workflow />
