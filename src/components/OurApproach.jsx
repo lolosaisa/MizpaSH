@@ -13,6 +13,7 @@ const ReasonSlide = ({ backgroundImage, title, description, peopleReached }) => 
         >
             
         </div>
+        
         <div className="flex h-full flex-col items-start justify-between py-5">
           <div className="flexCenter gap-4">
             <div className="flex flex-col gap-1">
