@@ -5,12 +5,13 @@ import wellnessCheck from "../assets/wellnessCheck.jpg";
 
 const ReasonSlide = ({ backgroundImage, title, description, peopleReached }) => {
     return (
+      
       <div>
-        
         <div
           className="z-0 brightness-75 transition hover:brightness-100 rounded-lg flex-none w-[300px] h-full lg:w-[400px] lg:h-[300px] min-w-[300px] bg-cover bg-no-repeat rounded-r-5xl 2xl:rounded-5xl scroll-container"
-          style={{ backgroundImage: `url(${backgroundImage.src})` }}
+          style={{ backgroundImage: `url(${backgroundImage})` }}
         >
+        
             
         </div>
         
@@ -31,7 +32,13 @@ const ReasonSlide = ({ backgroundImage, title, description, peopleReached }) => 
   
   const OurApproach = () => {
     return (
-      <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+      <section className="2xl:max-container relative flex flex-col py-6 lg:mb-10 lg:py-20 xl:mb-20">
+        <div className="text-center p-6">
+        <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
+          Our Approach
+        </span>
+        
+      </div>
         <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
           
           <ReasonSlide

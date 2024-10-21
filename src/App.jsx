@@ -27,8 +27,9 @@ const App = () => {
         <PartnershipsSection />
         <AddresingGBV />
         <GBVSection />
-        <ServicesSection />
         <OurApproach />
+        <ServicesSection />
+        
         <TrainingSection />
         
         <Workflow />

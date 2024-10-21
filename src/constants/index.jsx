@@ -139,18 +139,7 @@ export const services = [
     description:
       "Engaging in broader advocacy efforts to raise awareness about GBV and influence policy changes that protect survivors.",
   },
-  {
-    icon: <JobPlacement />,
-    text: "Job Placement Assistance",
-    description:
-      "Helping survivors find employment through job placement services and partnerships with local businesses.",
-  },
-  {
-    icon: <Nutrition />,
-    text: "Nutrition and Wellness Programs",
-    description:
-      "Providing access to nutritious meals, fitness programs, and wellness activities to promote overall well-being.",
-  },
+  
   {
     icon: <Transport />,
     text: "Transportation Services",
@@ -231,7 +220,7 @@ export const people = [
     image: antonym,
   },
   {
-    name: "Wilson Wamwea",
+    name: "Wilson Wamweya",
     title: "CEO",
     image: wm,
   },
@@ -240,11 +229,7 @@ export const people = [
     title: "Director Operations",
     image: susan,
   },
-  {
-    name: "James Wamwea",
-    title: "Director-Liasion",
-    image: "path/to/user1.jpg",
-  },
+ 
   
   {
     name: "Lisa Lee",
@@ -280,11 +265,10 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "What we do" },
+  { href: "#", text: "News and Stories" },
+  { href: "#", text: "Law" },
+  { href: "#", text: "Get Involved" },
 ];
 
 export const communityLinks = [
