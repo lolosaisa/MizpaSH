@@ -8,7 +8,7 @@ const TeamSection = () => {
         </h2>
         <div className="flex flex-wrap justify-center">
           {people.map((person, index) => (
-            <div key={index} className="w-full sm:w-1/2 lg:w-1/5 p-4">
+            <div key={index} className="w-full sm:w-1/2 lg:w-1/6 p-4">
               <div className="p-6 border border-neutral-700 rounded-xl text-center">
                 <img
                   src={person.image}

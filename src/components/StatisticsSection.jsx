@@ -3,7 +3,7 @@ import { aboutUsContent } from "../constants";
 import backgroundImage from "../assets/gbv1.jpg"
 
 
-const AboutUsSection = () => {
+const StatisticsSection = () => {
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-20"
@@ -23,4 +23,4 @@ const AboutUsSection = () => {
   );
 };
 
-export default AboutUsSection;
+export default StatisticsSection;

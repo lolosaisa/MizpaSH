@@ -5,7 +5,7 @@ import Workflow from "./components/GetInvolved.jsx";
 import Footer from "./components/Footer";
 import ResourcesSection from "./components/ResourcesSection";
 import Testimonials from "./components/Testimonials";
-import AboutUsSection from "./components/MazpaSection";
+import StatisticsSection from "./components/StatisticsSection.jsx";
 import ServicesSection from "./components/ServicesSection"
 import PartnershipsSection from "./components/PatnershipSection";
 import GBVSection  from "./components/GBVSection";
@@ -15,6 +15,7 @@ import TrainingSection from "./components/TrainingSection";
 //import UnderConstruction from "./components/UnderConstruction";
 import './index.css'
 import OurApproach from "./components/OurApproach.jsx";
+import VideoSection from "./components/VideoSection.jsx";
 
 const App = () => {
   return (
@@ -23,12 +24,15 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         
         <HeroSection />
-        <AboutUsSection />
+        <VideoSection />
+        <StatisticsSection />
         <PartnershipsSection />
         <AddresingGBV />
-        <GBVSection />
         <OurApproach />
+        
+        
         <ServicesSection />
+        <GBVSection />
         
         <TrainingSection />
         

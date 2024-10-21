@@ -197,21 +197,22 @@ export const resources = [
     title: "Understanding GBV",
     description: "A comprehensive study on the causes and impacts of gender-based violence.",
     points: ["Impact on communities", "Psychological effects", "Preventative measures"],
-    link: "#https://www.youtube.com/watch?v=uxyUxFxdRKc",
+    link: "https://www.youtube.com/watch?v=uxyUxFxdRKc",
   },
   {
     title: "Legal Frameworks",
     description: "An analysis of the legal responses to GBV in different countries.",
     points: ["International laws", "National policies", "Case studies"],
-    link: "#https://kenyalaw.org/kl/index.php?id=4512",
+    link: "https://kenyalaw.org/kl/index.php?id=4512",
   },
   {
     title: "Survivors",
     description: "An analysis on how to help victims.",
     points: ["How to ask for Help(SOS)", "National policies", "Case studies"],
-    link: "#",
+    link: "#", // Keep this if you don't want any specific link.
   },
 ];
+
 
 export const people = [
   {
@@ -247,11 +248,7 @@ export const people = [
     title: "Head of mission & Fundraising-Australia",
     image: "path/to/user1.jpg",
   },
-  {
-    name: "Luke Yego",
-    title: "-Head of mission& fundraising - New Zealand",
-    image: "path/to/user1.jpg",
-  },
+  
   
   
 ]

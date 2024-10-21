@@ -1,7 +1,5 @@
 //import React from 'react';
 import GlobalRightsImage from '../assets/umoja1.png'; 
-//import video1 from "../assets/video1.mp4";
-//import video2 from "../assets/video2.mp4";
 
 
 const PartnershipsSection = () => {
@@ -12,7 +10,11 @@ const PartnershipsSection = () => {
           Gender-Based Violence
         </h2>
         <p className="py-6 text-lg text-neutral-500">
-        Gender-based violence (GBV) is a serious infringement of human rights and poses a substantial risk to health and safety. GBV includes physical, sexual, and psychological violence, such as rape, sexual assault, trafficking, and forced prostitution. Although anyone, regardless of gender, can suffer violence related to their sex or gender, women and girls are especially vulnerable. It is estimated that one in three women will experience sexual or physical violence during their lifetime.
+        Gender-based violence (GBV) is a serious infringement of human rights and poses a substantial risk to health and safety. 
+        GBV includes physical, sexual, and psychological violence, such as rape, sexual assault, trafficking, and forced prostitution. 
+        Although anyone, regardless of gender, can suffer violence related to their sex or gender, 
+        women and girls are especially vulnerable. It is estimated that one in three women will experience sexual or physical v
+        iolence during their lifetime.
         </p>
         
       </div>
@@ -23,8 +25,9 @@ const PartnershipsSection = () => {
           className=" w-full h-full object-cover shadow-lg"
         />
       </div>
-     
+      
     </div>
+    
     
     
   );
