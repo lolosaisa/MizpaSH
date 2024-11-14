@@ -16,6 +16,7 @@ import TrainingSection from "./components/TrainingSection";
 import './index.css'
 import OurApproach from "./components/OurApproach.jsx";
 import VideoSection from "./components/VideoSection.jsx";
+import ChatSection from "./components/ChatSection.jsx";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         
         <ServicesSection />
         <GBVSection />
+        <ChatSection />
         
         <TrainingSection />
         
