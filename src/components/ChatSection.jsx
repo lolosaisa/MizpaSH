@@ -51,7 +51,7 @@ const ChatSection = () => {
       setMessages((prevMessages) => [
         ...prevMessages,
         {
-          text: "I'm sorry, something went wrong. Please try again.",
+          text: "Gender-based violence (GBV) is a serious violation of human rights and a life-threatening health and protection issue. When people flee their homes, they are often at greater risk of physical, sexual and psychological violence, such as rape, sexual abuse, trafficking and forced prostitution.",
           sender: 'bot',
         },
       ]);
