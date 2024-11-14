@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FaPaperPlane } from 'react-icons/fa';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const ChatSection = () => {
   const [input, setInput] = useState('');
@@ -13,20 +14,17 @@ const ChatSection = () => {
   const [loading, setLoading] = useState(false);
 
   async function textGenTextOnlyPrompt() {
-    // [START text_gen_text_only_prompt]
-    // Make sure to include these imports:
-    // import { GoogleGenerativeAI } from "@google/generative-ai";
-    const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+    
+    const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GOOGLE_AI_API_KEY);
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
   
-    const prompt = "Write a story about a magic backpack.";
+    const prompt = "What is GBV?";
   
     const result = await model.generateContent(prompt);
     console.log(result.response.text());
     // [END text_gen_text_only_prompt]
   }
   
-
 
 
   const handleSend = async () => {
@@ -40,23 +38,11 @@ const ChatSection = () => {
     setInput('');
     setLoading(true);
 
-    
-      try {
-        const response = await axios.post(
-          'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=REACT_APP_GOOGLE_AI_API_KEY', // Gemini API endpoint
-          { prompt: input },
-          {
-            headers: {
-              Authorization: `Bearer ${process.env.REACT_APP_GOOGLE_AI_API_KEY}`, // Use API key from .env
-            },
-            
-          },
-          //console.log("API Key:", process.env.REACT_APP_GOOGLE_AI_API_KEY)
+    try {
+      // Call the textGenTextOnlyPrompt function with the user's input
+      const aiResponse = await textGenTextOnlyPrompt(input);
 
-        );
-
-      const aiResponse = response.data.candidates[0].output;
-       // Adjust based on the API's response structure
+      // Add bot's response to chat
       setMessages((prevMessages) => [
         ...prevMessages,
         { text: aiResponse, sender: 'bot' },
@@ -73,6 +59,51 @@ const ChatSection = () => {
       setLoading(false);
     }
   };
+
+//  const handleSend = async () => {
+   // if (input.trim() === '') return;
+
+    // Add user's message to chat
+   // setMessages((prevMessages) => [
+   //   ...prevMessages,
+  //    { text: input, sender: 'user' },
+   // ]);
+    //setInput('');
+   // setLoading(true);
+
+    
+     // try {
+       // const response = await axios.post(
+          //'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=REACT_APP_GOOGLE_AI_API_KEY', // Gemini API endpoint
+         // { prompt: input },
+         // {
+            //headers: {
+          //    Authorization: `Bearer ${process.env.REACT_APP_GOOGLE_AI_API_KEY}`, // Use API key from .env
+           // },
+            
+        //  },
+          //console.log("API Key:", process.env.REACT_APP_GOOGLE_AI_API_KEY)
+
+       // );
+
+     // const aiResponse = response.data.candidates[0].output;
+       // Adjust based on the API's response structure
+     // setMessages((prevMessages) => [
+     //   ...prevMessages,
+      //  { text: aiResponse, sender: 'bot' },
+    //  ]);
+   // } catch (error) {
+    //  setMessages((prevMessages) => [
+     //   ...prevMessages,
+      //  {
+         // text: "I'm sorry, something went wrong. Please try again.",
+        //  sender: 'bot',
+       // },
+     // ]);
+  //  } finally {
+     // setLoading(false);
+    //}
+  //};
 
   return (
     <div className="bg-black text-white rounded-lg p-6 mt-10 max-w-lg mx-auto shadow-lg">
